@@ -8,7 +8,7 @@
 ]
 'patterns': [
   {
-    'match': '^(.*)--([^\u4e00-\u9fa5]*)([\(\u4e00-\u9fa5].*)'
+    'match': '^(.*)--([^\u4e00-\u9fa5\(]*)([\u4e00-\u9fa5\(].*)'
     'name': 'keyword.other.block'
     'captures':
         '1':
@@ -33,7 +33,7 @@
             'name':'keyword.word-title.block'
   }
   {
-    'match': '^[1234567890].*'
+    'match': '^[1234567890]\.'
     'name': 'keyword.other.block'
     'captures':
         '0':
