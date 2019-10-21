@@ -19,6 +19,13 @@
             'name':'keyword.word-zh-trans.block'
   }
   {
+    'match': '^-- .*'
+    'name': 'keyword.other.trans-subtitle'
+    'captures':
+        '0':
+            'name':'keyword.trans-subtitle.block'
+  }
+  {
     'match': '^## .*'
     'name': 'keyword.other.block'
     'captures':
